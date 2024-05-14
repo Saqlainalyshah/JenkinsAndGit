@@ -1,13 +1,8 @@
 import 'dart:io';
 
 void main() {
-  // Prompt the user to enter the first number
-  stdout.write("Enter the first number: ");
-  double num1 = double.parse(stdin.readLineSync()!);
-
-  // Prompt the user to enter the second number
-  stdout.write("Enter the second number: ");
-  double num2 = double.parse(stdin.readLineSync()!);
+  double num1 = 3.0;
+  double num2 = 2.0;
 
   // Calculate the sum
   double sum = num1 + num2;
