@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your source code from version control
-                git 'https://github.com/Saqlainalyshah/JenkinsAndGit/tree/main'
+                git 'https://github.com/Saqlainalyshah/JenkinsAndGit'
             }
         }
         stage('Build') {
