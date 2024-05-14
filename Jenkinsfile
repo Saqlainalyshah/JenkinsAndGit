@@ -11,13 +11,13 @@ pipeline {
         stage('Build') {
             steps {
                 // Build your Dart code
-                sh 'dart compile exe your_dart_program.dart -o main.dart'
+                sh 'dart compile exe main.dart -o main'
             }
         }
         stage('Run') {
             steps {
                 // Run your Dart program
-                sh './main.dart'
+                sh './main'
             }
         }
     }
